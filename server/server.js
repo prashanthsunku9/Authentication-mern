@@ -14,7 +14,7 @@ app.use(express.json());
 
 
 
-const dburl="mongodb+srv://admin:admin@cluster0.0i8dyo8.mongodb.net/?retryWrites=true&w=majority"
+const dburl=""
 
 mClient.connect(dburl)
 .then((client)=>{
